@@ -10,6 +10,8 @@ export class Giphy extends Base {
 getGiphy() {
     //console.log(obj.url)
 let list = this.res.data.map((obj) => {console.log("kkk",obj)
+console.log('button', document.querySelectorAll("btn-add").value)
+
 return `<img class="img" src=${obj.images.fixed_height.url}>`
 
 });
