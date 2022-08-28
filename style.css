@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
@@ -8,50 +8,53 @@ body{
     text-align: left;
     background-color: #fff;
 }
-
-.user-search{
+.gif-search {
     height: 24px;
-        width: 180.8px;
+    width: 180.8px;
 }
-
-
 .title-search-bar {
     text-align: center;
-    
 }
 .title-search-bar .search-bar {
     margin-top: 0.4rem;
 }
-
-.items{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.img{
+.img {
     height: 200px;
     width: 200px;
     margin: 5px;
 }
-.hr{
+.line {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-.btn-add{
+.btn-add {
     border: 1px solid transparent;
     padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
     line-height: 1.5;
     border-radius: 0.2rem;
     margin: 3px;
+    /* transition: 0.1s; */
 }
-
-.active{
-    border: 3px solid #17a2b8;
-    border-radius: 3px ;
+.btn-add.active {
+    border: 3px solid #bfdeff;
+    border-radius: 3px;
+}
+.btn-success.active {
+    border: 3px solid #93d3a2;
+    border-radius: 3px;
+}
+.btn-trending.active {
+    border: 3px solid #ed9aa2;
+    border-radius: 3px;
 }
 .btn-success {
     color: #fff;
@@ -62,12 +65,16 @@ justify-content: space-between;
     font-size: 0.875rem;
     line-height: 1.5;
     border-radius: 0.2rem;
+    /* transition: 0.1s; */
+
 }
-input{
+.btn-success:hover {
+    background-color: #218838;
+}
+input {
     font-family: inherit;
 }
-
-.btn-trending{
+.btn-trending {
     color: #fff;
     background-color: #dc3545;
     border-color: #dc3545;
@@ -76,5 +83,9 @@ input{
     font-size: 0.875rem;
     line-height: 1.5;
     border-radius: 0.2rem;
+    /* transition: 0.1s; */
 
+}
+.btn-trending:hover {
+    background-color: #c82333;
 }

@@ -6,30 +6,18 @@
   </head>
   <body>
     <header></header>
-
-
-
     <div class="title-search-bar">
-        <h1>Giphy API Example</h1>
-        <div id="buttons">
-          <input type="button" class="btn-add" value="Internet Cats">
-          <input type="button" class="btn-add" value="Meme's">
-          <input type="button" class="btn-add" value="Typing">
-          <input type="button" class="btn-add" value="Space">
-          <input type="button" class="btn-add" value="Rick and Morty">
-
-        </div>
-        <div class="search-bar">
-            <input class= "user-search" type="text" name="query" id="user-search" />
-            <input id="submit" type="button" value="Submit" class="btn-success" />
-            <input id="trend" type="button" class="btn-trending" value="See what's trending" />
-        </div>
+      <h1>Giphy API Example</h1>
+      <div id="buttons"></div>
+      <div class="search-bar">
+        <input class="gif-search" id="gif-search" type="text" />
+        <input class="btn-success" id="submit" type="button" value="Submit" />
+        <input  class="btn-trending" id="trend" type="button" value="See what's trending"/>
+      </div>
     </div>
-    <div class="hr" ></div>
+    <div class="line"></div>
     <div class="items" id="items"></div>
     <div id="results"></div>
-
     <script type="module" src="./main.js"></script>
-
   </body>
-  </html>
+</html>
